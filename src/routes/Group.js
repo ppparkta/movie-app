@@ -24,7 +24,9 @@ function Group() {
     <div>
       <div className={styles.container}>
         {loading ? (
-          <h4>Loading...</h4>
+          <div className={styles.loader}>
+            <span>Loading...</span>
+          </div>
         ) : (
           <div className={styles.movies}>
             {movies.map((movie) => (
