@@ -2,7 +2,10 @@
   color: white;
   width: 100%;
   height: 50px;
-  background: #e4e4e4;
+  background: #607eaa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
 }
 
 .group {
@@ -10,5 +13,17 @@
   width: 10%;
   margin-left: 10%;
   box-sizing: border-box;
-  top: 50%;
+  transform: translateY(50%);
+}
+
+.group a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.group a:hober {
+  color: rgb(255, 163, 57);
 }
